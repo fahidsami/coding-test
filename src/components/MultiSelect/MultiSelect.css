@@ -1,0 +1,64 @@
+.component-multi-select {
+    height: 100vh;
+    margin: 5rem;
+}
+.select-btn {
+    position: relative;
+    width: 200px;
+    background: #dcd6d6;
+    padding: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.options-body {
+    position: absolute;
+    background: #d2c8c8;
+    border-radius: 4px;
+    margin: 0.2rem;
+    max-height: 296px;
+    overflow-y: auto;
+}
+
+.top-50 {
+    top: 50px;
+}
+
+.bottom-50 {
+    bottom: 50px;
+}
+
+.options-body > .option {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    width: 200px;
+}
+
+.option > .name {
+    text-transform: capitalize;
+}
+
+.option:hover {
+    background: #9c9797d6;
+    cursor: pointer;
+}
+
+.input-other > input {
+    margin: 0.5rem 0;
+    width: 200px;
+    height: 23px;
+    padding: 0.2rem;
+}
+
+.save-btn {
+    width: 90%;
+    height: 40px;
+    margin: 0.2rem;
+}
+
+.caret-down {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+}
